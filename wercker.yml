@@ -32,4 +32,4 @@ pipeline3c:
       name: step3c
       code: |
         echo "Hello pipeline 3c!"  > hello.txt
-
+	echo "Bye!" > bye.txt
