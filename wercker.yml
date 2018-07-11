@@ -31,4 +31,4 @@ pipeline3c:
     - script:
       name: step3c
       code: |
-        echo "Hello pipeline 3c!"  > hello.txt
+        echo "Hello pipeline 3c! Updating this now!"  > hello.txt
