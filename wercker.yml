@@ -6,7 +6,6 @@ build:
       name: Hello
       code: |
         echo "Hello pipeline 1!" > hello.txt
-        sleep 300
         
 pipeline2:
   steps:
