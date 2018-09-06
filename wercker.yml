@@ -6,7 +6,7 @@ build:
       name: Hello
       code: |
         echo "Hello pipeline 1!" > hello.txt
-        cp hello.txt $WERCKER_REPORT_ARTIFACTS_DIR/
+        cp hello.txt $WERCKER_OUTPUT_DIR/
         
 pipeline2:
   steps:
