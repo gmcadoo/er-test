@@ -7,7 +7,6 @@ build:
       code: |
         echo "Hello pipeline 1!" > hello.txt
         cp hello.txt $WERCKER_OUTPUT_DIR/
-        sleep 300
         
 pipeline2:
   steps:
