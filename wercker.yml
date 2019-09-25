@@ -5,6 +5,7 @@ build:
     - script:
       name: Hello
       code: |
+        echo "env test = $test"
         echo "Hello pipeline 1!" > hello.txt
         cp hello.txt $WERCKER_OUTPUT_DIR/
         
